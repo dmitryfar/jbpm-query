@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Export-Package: org.jbpm.query;uses:="javax.persistence,org.jbpm.task"
+ ;version="5.4.0.Final",org.jbpm.task;version="5.4.0.Final"
+Tool: Bnd-0.0.357
+Bundle-Name: jBPM :: Query
+Created-By: 1.7.0_25 (Oracle Corporation)
+Require-Bundle: org.drools.core;bundle-version="5.5.0.Final"
+Bundle-Vendor: JBoss by Red Hat
+DynamicImport-Package: *
+Bundle-Version: 5.4.0.Final
+Bnd-LastModified: 1399578294463
+Bundle-Activator: org.jbpm.osgi.flow.core.Activator
+Bundle-ManifestVersion: 2
+Bundle-Description: jBPM Query
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Import-Package: javax.persistence,org.jbpm.osgi.flow.core,org.jbpm.que
+ ry;version="5.4",org.jbpm.task;version="5.4"
+Bundle-SymbolicName: org.jbpm.flow.core;singleton:=true
+Bundle-DocURL: http://www.jboss.org/
+
